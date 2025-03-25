@@ -25,9 +25,7 @@ Cenário: Uma empresa de médio porte possui um setor de TI responsável por ate
 
 O diagrama de caso abaixo representa o fluxo de ações realizadas por um funcionário e uma inteligência artificial (IA) em um sistema de suporte técnico.
 
-<center>
-  <img src="[![Image](https://github.com/user-attachments/assets/c5de1ded-f814-4892-8a5e-85e6c33f53a1)](https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto/issues/2#issue-2947327498)" alt="Diagrama de Caso de Uso">
-</center>
+[![Image](https://github.com/user-attachments/assets/c5de1ded-f814-4892-8a5e-85e6c33f53a1)](https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto/issues/2#issue-2947327498)
 
 O funcionário faz login no sistema e, assim que validado, abre o chamado. A IA recebe o chamado e realiza a triagem para validar sua procedência.
 
