@@ -36,6 +36,7 @@ Em seguida, a IA atribui o chamado a um setor e analisa se o problema pode ser r
 
 Por fim, o chamado é encerrado.
 
+Diagrama de Classe
 ![Image](https://github.com/user-attachments/assets/9800321e-7027-4b52-8c19-f4d7e421e55b)
 
 Diagrama de classe, de um sistema de suporte onde a IA auxilia o técnico na triagem de níveis de importância dos chamados, e sugere soluções praticas e mais rápidas. O sistema também possui um histórico para armazenar os chamados já resolvidos.
