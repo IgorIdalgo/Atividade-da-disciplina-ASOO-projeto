@@ -23,6 +23,8 @@ Cenário: Uma empresa de médio porte possui um setor de TI responsável por ate
 
 ### Casos de Uso
 
+![Image](https://github.com/user-attachments/assets/c5de1ded-f814-4892-8a5e-85e6c33f53a1)
+
 ### Classe
 
 ### Sequência
