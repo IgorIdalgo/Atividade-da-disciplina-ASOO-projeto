@@ -23,9 +23,9 @@ Cenário: Uma empresa de médio porte possui um setor de TI responsável por ate
 
 ### Casos de Uso
 
-O diagrama abaixo representa o fluxo de ações realizadas por um funcionário e uma inteligência artificial (IA) em um sistema de atendimento de chamados.
+O diagrama de cao abaixo representa o fluxo de ações realizadas por um funcionário e uma inteligência artificial (IA) em um sistema de suporte técnico.
 
-![Image](https://github.com/user-attachments/assets/c5de1ded-f814-4892-8a5e-85e6c33f53a1)
+[![Image](https://github.com/user-attachments/assets/c5de1ded-f814-4892-8a5e-85e6c33f53a1)](https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto/issues/2#issue-2947327498)
 
 ### Classe
 
