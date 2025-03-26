@@ -4,9 +4,9 @@ Cenário: Uma empresa de médio porte possui um setor de TI responsável por ate
 
 ## Equipe
 
-* PO:
-* ScrumMaster:
-* Devs:
+* PO: Ana Clara Leão Ferreira
+* ScrumMaster: Igor Sene Idalgo
+* Devs: Mauricio R. Verdussen, Pedro Henrique T. de Carvalho, Henry M. Damasceno Santos, Vinícius Gobis Novo.
 
 
 ## Backlog
@@ -43,5 +43,9 @@ Diagrama de Classe.
 
 Diagrama de classe, de um sistema de suporte onde a IA auxilia o técnico na triagem de níveis de importância dos chamados, e sugere soluções praticas e mais rápidas. O sistema também possui um histórico para armazenar os chamados já resolvidos.
 ### Sequência
+Diagrama de sequência.
+![Image](https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto/blob/main/diagrama%20de%20sequencia.png)
+
+
 
 ### Implantação
