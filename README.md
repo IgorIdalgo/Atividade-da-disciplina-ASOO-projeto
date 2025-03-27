@@ -49,9 +49,8 @@ Diagrama de Classe.
 Diagrama de classe, de um sistema de suporte onde a IA auxilia o técnico na triagem de níveis de importância dos chamados, e sugere soluções praticas e mais rápidas. O sistema também possui um histórico para armazenar os chamados já resolvidos.
 ### Sequência
 Diagrama de sequência.
-![Image](https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto/blob/main/Diagram%20de%20Implanta%C3%A7%C3%A3o)
-
+![Image](https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto/blob/main/diagrama%20de%20sequencia.png)
 
 
 ### Implantação
-![Image](![image](https://github.com/user-attachments/assets/22bd7449-05ce-42e0-a7d6-eb4778b7fe6d))
+![Image](https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto/blob/main/Diagram%20de%20Implanta%C3%A7%C3%A3o)
