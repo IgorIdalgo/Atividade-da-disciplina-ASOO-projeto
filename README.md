@@ -15,14 +15,13 @@ Cenário: Uma empresa de médio porte possui um setor de TI responsável por ate
 * Cadastro de usuário: Usufruidores podem cadastrar no sistema;
 *  Autenticação de login com diferentes níveis de acesso;
 *  Abertura de chamados: Usuários podem registrar requisições de suporte;
-* Classificação inteligente: A IA analisa os chamados e, com base no histórico de chamados anteriores, sugere soluções ás requisições antes de encaminhar ao suporte técnico adequado;
-* Chamados abertos podem ser editados com adição de comentários e alteração de status, sempre que houver uma atualização no chamnado, uma notificação é enviada ao requerente do chamado
-* Pesquisa avançada: chamados podem ser filtrados por status, prioridade, solicitante ou técnico responsável
+* Classificação inteligente: A IA analisa os chamados e, com base no histórico de chamados anteriores, sugere soluções às requisições antes de encaminhar ao suporte técnico adequado.
 
 ### Requisitos não funcionais:
-* Proteção dos dados sensíveis seguindo a LGPD
-* Escalabildiade: Suporte ao aumento no número de usuários e chamados sem perda de desempenho
-* Integração com outros sistemas: Possibilidade de conexão com ferramentas já utilizadas pela empresa
+* Banco de dados em sql server;
+* Segurança;
+* Modularidade.
+
 
 ## Modelagem De Requisitos
 
