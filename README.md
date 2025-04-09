@@ -52,7 +52,7 @@ Sprint 5: Refinamento e Segurança
 
 O diagrama de caso abaixo representa o fluxo de ações realizadas por um funcionário e uma inteligência artificial (IA) em um sistema de suporte técnico.
 
-![Image](https://github.com/user-attachments/assets/3fd78033-02bb-49e9-b9c1-349495867644)
+![Image](https://github.com/user-attachments/assets/2fa7933b-9304-485c-93a4-ed86c0ff05a8)
 
 
 O funcionário faz login no sistema e, assim que validado, abre o chamado. A IA recebe o chamado e realiza a triagem para validar sua procedência.
