@@ -66,7 +66,7 @@ Por fim, o chamado é encerrado.
 ### Classe
 Diagrama de Classe.
 
-![Image](https://github.com/user-attachments/assets/9800321e-7027-4b52-8c19-f4d7e421e55b)
+![Image](https://github.com/user-attachments/assets/7bb3bd64-5d5b-4eea-ab1b-bb5b1da051b5)
 
 Diagrama de classe, de um sistema de suporte onde a IA auxilia o técnico na triagem de níveis de importância dos chamados, e sugere soluções praticas e mais rápidas. O sistema também possui um histórico para armazenar os chamados já resolvidos.
 ### Sequência
