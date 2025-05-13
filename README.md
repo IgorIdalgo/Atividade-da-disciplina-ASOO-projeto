@@ -75,6 +75,6 @@ Diagrama de sequência.
 
 
 ### Implantação
-![Image](https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto/blob/main/Diagrama%20de%20Implantacao.png)
+![Image](https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto/blob/main/Diagrama%20de%20Implantacao%20.jpg)
 Diagrama de Implantação, Este diagrama representa a arquitetura de um sistema de resolução de chamados com IA.
 Para um simples entendimento e direto
