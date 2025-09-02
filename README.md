@@ -1,100 +1,121 @@
-# Atividade-da-disciplina-ASOO-projeto
-Cenário: Uma empresa de médio porte possui um setor de TI responsável por atender solicitações internas de suporte técnico. Atualmente todas as requisições são recebidas por e-mail ou telefone, o que gera dificuldades no controle dos chamados, atrasos e falhas na priorização. A empresa deseja adotar um sistema integrado, no qual os colaboradores possam registrar suas solicitações e a IA possa sugerir soluções automáticas ou encaminhar ao técnico adequado com base no histórico de chamados e complexidade do problema.
+# 📌 Atividade da Disciplina – ASOO Projeto  
 
-## Equipe
+## 📝 Descrição do Desafio  
+Uma empresa de médio porte possui um setor de TI responsável por atender solicitações internas de suporte técnico. Atualmente todas as requisições são recebidas por e-mail ou telefone, o que gera dificuldades no controle dos chamados, atrasos e falhas na priorização.  
+A empresa deseja adotar um **sistema integrado**, no qual os colaboradores possam registrar suas solicitações e a **IA** possa sugerir soluções automáticas ou encaminhar ao técnico adequado com base no histórico de chamados e na complexidade do problema.  
 
-* PO: Ana Clara Leão Ferreira
-* ScrumMaster: Igor Sene Idalgo
-* Devs: Mauricio R. Verdussen, Pedro Henrique T. de Carvalho, Henry M. Damasceno Santos, Vinícius Gobis Novo.
+---
 
-## Requisitos funcionais:
-* Cadastro de usuário: Usufruidores podem cadastrar no sistema;
-*  Autenticação de login com diferentes níveis de acesso;
-*  Abertura de chamados: Usuários podem registrar requisições de suporte;
-* Classificação inteligente: A IA analisa os chamados e, com base no histórico de chamados anteriores, sugere soluções às requisições antes de encaminhar ao suporte técnico adequado.
+## 👨‍💻 Equipe  
+- **PO**: Ana Clara Leão Ferreira  
+- **Scrum Master**: Igor Sene Idalgo  
+- **Devs**: Mauricio R. Verdussen, Pedro Henrique T. de Carvalho, Henry M. Damasceno Santos, Vinícius Gobis Novo  
 
-## Requisitos não funcionais:
-* Banco de dados em sql server;
-* Segurança;
-* Modularidade.
+---
 
-## Backlog
-Sprint 1: Infraestrutura e Base do Sistema
-* Configuração do ambiente de desenvolvimento
-* Configuração do banco de dados SQL Server
-* Definição da arquitetura do sistema (modularidade)
-* Implementação inicial da segurança (criptografia de senhas, autenticação básica)
+## 📋 Requisitos  
 
-Sprint 2: Cadastro e Autenticação
-* Desenvolvimento do cadastro de usuários
-* Implementação da autenticação com diferentes níveis de acesso
-* Validação e testes iniciais
+### Funcionais  
+- Cadastro de usuário: usufruidores podem se cadastrar no sistema  
+- Autenticação de login com diferentes níveis de acesso  
+- Abertura de chamados: usuários podem registrar requisições de suporte  
+- Classificação inteligente: IA analisa chamados e sugere soluções ou encaminha ao técnico adequado  
 
-Sprint 3: Abertura de Chamados
-* Criar a funcionalidade para abertura de chamados
-* Interface para exibição dos chamados abertos
-* Testes de integração com banco de dados
+### Não Funcionais  
+- Banco de dados em **SQL Server**  
+- Segurança  
+- Modularidade  
 
-Sprint 4: Classificação Inteligente (IA)
-* Treinamento inicial da IA com base no histórico de chamados (dados fictícios se necessário)
-* Implementação da sugestão automática de soluções
-* Testes e ajustes no modelo
+---
 
-Sprint 5: Refinamento e Segurança
-* Melhorias na segurança do sistema
-* Ajustes na modularidade e refatoração do código
-* Testes finais e documentação
+## 📆 Backlog do Produto  
 
-## Modelagem De Requisitos
+### Sprint 1 – Infraestrutura e Base do Sistema  
+- Configuração do ambiente de desenvolvimento  
+- Configuração do banco de dados SQL Server  
+- Definição da arquitetura do sistema (modularidade)  
+- Implementação inicial da segurança (criptografia de senhas, autenticação básica)  
 
+### Sprint 2 – Cadastro e Autenticação  
+- Desenvolvimento do cadastro de usuários  
+- Implementação da autenticação com diferentes níveis de acesso  
+- Validação e testes iniciais  
 
+### Sprint 3 – Abertura de Chamados  
+- Criar a funcionalidade para abertura de chamados  
+- Interface para exibição dos chamados abertos  
+- Testes de integração com banco de dados  
 
+### Sprint 4 – Classificação Inteligente (IA)  
+- Treinamento inicial da IA com base no histórico de chamados (dados fictícios se necessário)  
+- Implementação da sugestão automática de soluções  
+- Testes e ajustes no modelo  
 
+### Sprint 5 – Refinamento e Segurança  
+- Melhorias na segurança do sistema  
+- Ajustes na modularidade e refatoração do código  
+- Testes finais e documentação  
 
-### Casos de Uso
+---
 
-O diagrama de caso abaixo representa o fluxo de ações realizadas por um funcionário e uma inteligência artificial (IA) em um sistema de suporte técnico.
+## 📊 Tabela de Sprints  
 
+| Sprint   | Período             | Objetivos                     | Entregas |
+|----------|---------------------|-------------------------------|----------|
+| Sprint 1 | 03/06 - 09/06/2024  | Infraestrutura e base do sistema | Ambiente, DB, segurança inicial |
+| Sprint 2 | 10/06 - 16/06/2024  | Cadastro e autenticação        | Cadastro + login |
+| Sprint 3 | 17/06 - 23/06/2024  | Abertura de chamados           | CRUD de chamados |
+| Sprint 4 | 24/06 - 30/06/2024  | Classificação inteligente      | IA treinada + sugestões |
+| Sprint 5 | 01/07 - 07/07/2024  | Refinamento e testes           | Sistema ajustado + documentação |
 
+---
 
-![Image](https://github.com/user-attachments/assets/2fa7933b-9304-485c-93a4-ed86c0ff05a8)
+## 📚 Modelagem de Requisitos  
 
+### 🔹 Casos de Uso  
+![Diagrama de Caso de Uso](https://github.com/user-attachments/assets/2fa7933b-9304-485c-93a4-ed86c0ff05a8)  
 
+Fluxo:  
+1. Funcionário faz login → abre chamado  
+2. IA recebe e valida chamado  
+3. IA define prioridade (alta, média, baixa)  
+4. IA resolve ou encaminha ao técnico  
+5. Chamado encerrado  
 
-O funcionário faz login no sistema e, assim que validado, abre o chamado. A IA recebe o chamado e realiza a triagem para validar sua procedência.
+---
 
+### 🔹 Diagrama de Classes  
+![Diagrama de Classes](https://github.com/user-attachments/assets/7bb3bd64-5d5b-4eea-ab1b-bb5b1da051b5)  
 
+Representa a estrutura do sistema, com suporte da IA para triagem, histórico e priorização dos chamados.  
 
+---
 
+### 🔹 Diagrama de Sequência  
+![Diagrama de Sequência](https://github.com/user-attachments/assets/4be00269-b933-4ac1-b8b5-2aa26f15ceb1)  
 
-Após a validação, a IA determina a urgência do chamado em três níveis: urgência alta, média urgência e baixa urgência.
+---
 
+### 🔹 Diagrama de Implantação  
+![Diagrama de Implantação](https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto/blob/main/Diagrama%20de%20Implantacao%20.jpg)  
 
+Representa a arquitetura do sistema de chamados com IA.  
 
+---
 
-Em seguida, a IA atribui o chamado a um setor e analisa se o problema pode ser resolvido por ela mesma. Se conseguir, a solução é encaminhada ao usuário; caso contrário, um técnico da área é acionado.
+## 🛠️ Tecnologias Utilizadas  
+- **SQL Server** – banco de dados  
+- **(Definir linguagens/frameworks usados, ex: C#, .NET, Java, Node.js, etc.)**  
+- **Ferramentas de versionamento**: Git/GitHub  
 
+---
 
+## ▶️ Como Executar o Projeto  
+```bash
+# Clonar repositório
+git clone https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto
 
+# Entrar na pasta do projeto
+cd Atividade-da-disciplina-ASOO-projeto
 
-Por fim, o chamado é encerrado.
-
-
-
-
-### Classe
-Diagrama de Classe.
-
-
-
-![Image](https://github.com/user-attachments/assets/7bb3bd64-5d5b-4eea-ab1b-bb5b1da051b5)
-
-Diagrama de classe, de um sistema de suporte onde a IA auxilia o técnico na triagem de níveis de importância dos chamados, e sugere soluções praticas e mais rápidas. O sistema também possui um histórico para armazenar os chamados já resolvidos.
-### Sequência
-Diagrama de sequência.
-![Image](https://github.com/user-attachments/assets/4be00269-b933-4ac1-b8b5-2aa26f15ceb1)
-
-### Implantação
-![Image](https://github.com/IgorIdalgo/Atividade-da-disciplina-ASOO-projeto/blob/main/Diagrama%20de%20Implantacao%20.jpg)
-Diagrama de Implantação, Este diagrama representa a arquitetura de um sistema de resolução de chamados com IA.
-Para um simples entendimento e direto
+# (Rodar comandos de instalação conforme a tecnologia escolhida)
